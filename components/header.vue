@@ -8,10 +8,10 @@
       </div>
       <div class="flex sm:gap-8 gap-4 font-medium">
         <h2 class="uno">
-          <router-link to="/">About</router-link>
+          <router-link to="/about">About</router-link>
         </h2>
         <h2 class="uno">
-          <router-link to="/">Projects</router-link>
+          <router-link to="/projects">Projects</router-link>
         </h2>
         <h2 class="uno">
           <a href="/assets/resume.pdf">Resume</a>
