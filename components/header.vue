@@ -2,20 +2,20 @@
   <div class="flex justify-center p-4">
     <nav class="flex justify-between container items-end">
       <div>
-        <div class="text-2xl font-medium uno">
+        <h1 class="text-2xl font-medium uno">
           <router-link to="/">Rituparna W</router-link>
-        </div>
+        </h1>
       </div>
       <div class="flex sm:gap-8 gap-4 font-medium">
-        <div class="uno">
+        <h2 class="uno">
           <router-link to="/">About</router-link>
-        </div>
-        <div class="uno">
+        </h2>
+        <h2 class="uno">
           <router-link to="/">Projects</router-link>
-        </div>
-        <div class="uno">
+        </h2>
+        <h2 class="uno">
           <a href="/assets/resume.pdf">Resume</a>
-        </div>
+        </h2>
       </div>
     </nav>
   </div>
@@ -24,7 +24,7 @@
 <style>
 .uno > a {
   position: relative;
-  color: #000;
+  color: #222222;
   text-decoration: none;
 }
 
